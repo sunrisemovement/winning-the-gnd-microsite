@@ -1,6 +1,6 @@
-# Pledge To Vote 2020
+# Winning the GND microsite
 
-Yoooooooooooo
+The book. It's good, folks!
 
 ## Setup
 
