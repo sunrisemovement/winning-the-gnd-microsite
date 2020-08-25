@@ -1,0 +1,44 @@
+media_folder: static/assets
+public_folder: assets
+media_folder_relative: true
+collections:
+  - label: Pages
+    name: pages
+    files:
+      - label: Home
+        name: home
+        file: content/home.md
+        format: yaml-frontmatter
+        frontmatter_delimiter: ---
+        fields:
+          - label: Content
+            name: body
+            widget: markdown
+  - label: Settings
+    name: settings
+    editor:
+      preview: false
+    files:
+      - label: SEO
+        name: seo
+        file: content/seo.json
+        format: json
+        fields:
+          - label: Site Title
+            name: siteTitle
+            widget: string
+          - label: Site Description
+            name: siteDescription
+            widget: string
+          - label: Site URL
+            name: siteUrl
+            widget: string
+          - label: Facebook Cover Image
+            name: fbImage
+            widget: image
+          - label: Twitter Cover Image
+            name: twitterImage
+            widget: image
+          - label: Twitter Username
+            name: twitterUsername
+            widget: string
